@@ -1,0 +1,13 @@
+/* content */
+.main-content{
+  position: relative;
+  left: 250px;
+  width: calc(100% - 250px);
+  transition: var(--tran-05);
+  padding: 25px;
+
+}
+.sidebar-nav.close ~ .main-content{
+  left: 88px;
+  width: calc(100% - 88px);
+}

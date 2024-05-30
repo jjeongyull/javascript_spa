@@ -1,13 +1,13 @@
-import HomePage from './HomePage.js';
-import CounterPage from './CounterPage.js';
-
+import EventList from './EventList.js';
+import AboutPage from './AboutPage.js';
 
 export default (main) => {
-  const home = () => new HomePage(main);
-  const counter = () => new CounterPage(main);
+  const home = () => new EventList(main);
+  const About = () => new AboutPage(main);
+
 
   return {
     home,
-    counter
+    About
   };
 };

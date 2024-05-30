@@ -1,6 +1,6 @@
-import Component from './core/Component.js';
+import Components from './core/Components.js';
 
-export default class Router extends Component {
+export default class Router extends Components {
   setup() {
     this.$state = {
       routes: [],

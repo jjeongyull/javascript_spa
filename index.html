@@ -1,12 +1,29 @@
+<!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javascript SPA</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="./index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>컴포넌트 테스트</title>
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- jquery -->
+  <script src="https://lib.menteimo.com/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/ck_dev_event.js"></script>
+
+
+</head>
+<body>
+  <nav-bar class="sidebar-nav"></nav-bar>
+
+  <div class="main-content" id="app"></div>
+
+  <script type="module" src="component/component_make.js"></script>
+  <script type="module" src="./index.js"></script>
+</body>
 </html>
